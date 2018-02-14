@@ -261,6 +261,8 @@ var InfiniteScroll = (function(_Component) {
       value: function render() {
         var _this2 = this;
 
+        window.console.log('rendering infinite scroll');
+
         var _props = this.props,
           children = _props.children,
           element = _props.element,

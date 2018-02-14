@@ -169,7 +169,7 @@ export default class InfiniteScroll extends Component {
   }
 
   render() {
-	console.log('rendering infinite scroll');
+    window.console.log('rendering infinite scroll');
     const {
       children,
       element,
